@@ -6,3 +6,8 @@ const app = new App({
 })
 
 export default app
+
+const darkModeBox = document.getElementById("darkmode"); 
+darkModeBox.addEventListener("change", (e) => {
+  document.body.classList.toggle("dark");
+})

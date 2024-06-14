@@ -4,10 +4,6 @@
   let resultText = "Please enter your name below 👇";
   let name;
 
-  function darkMode() {
-    document.body.classList.toggle("dark");
-  }
-
   function greet() {
     Greet(name).then((result) => (resultText = result));
   }
